@@ -42,7 +42,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-image: url("/assets/icon/white_hamburger_menu_icon.jpg ");
+  background-image: url("../assets/icon/white_hamburger_menu_icon.jpg ");
   background-size: cover;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .hero-section {
-  background-image: url("/assets/images/main_cover_one.png");
+  background-image: url("../assets/images/main_cover_one.png");
   background-size: cover;
   background-position: center top 10x;
   min-height: 100vh;
@@ -145,7 +145,7 @@ body {
 }
 
 .about-section {
-  background-image: url("/assets/images/main_cover_two.png");
+  background-image: url("../assets/images/main_cover_two.png");
   height: 100vh;
   padding-bottom: 90px;
 padding-top: 150px;  background-size: cover;
