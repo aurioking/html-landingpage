@@ -306,6 +306,7 @@ padding-top: 150px;  background-size: cover;
     padding-bottom: 30px;
   }
   .about-section {
+    text-align: -webkit-center;
     background-size: contain;
     background-position: center;
     height: 100vh;
@@ -332,6 +333,7 @@ padding-top: 150px;  background-size: cover;
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .about-section {
+    text-align: -webkit-center;
     background-size: contain;
     background-position: center;
     height: 100vh;
@@ -362,6 +364,7 @@ padding-top: 150px;  background-size: cover;
     height: fit-content;
   }
   .about-section {
+    text-align: -webkit-center;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -389,6 +392,7 @@ padding-top: 150px;  background-size: cover;
   }
 
   .about-section {
+    text-align: -webkit-center;
     height: 768px;
     background-size: cover;
   }
