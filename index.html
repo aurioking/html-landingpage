@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vegan Recipe's</title>
+    <meta
+      name="description"
+      content="Come to our website for more Vegan Food Recipes!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="icon"
+      href="assets/icon/icon_title.png"
+      type="image/png"
+      sizes="64x64"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #59981a"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" alt="Logo" />
+            Vegan Recipe's
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-section">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#featured">Discover</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="hero-section">
+      <div class="first-container">
+        <div class="slogan">
+          <h1>Welcome to Vegan Recipe's</h1>
+          <p>
+            Join us in embracing a sustainable and compassionate lifestyle
+            through the power of vegan cooking.
+          </p>
+          <a href="#featured" class="btn-discover">Discover More</a>
+        </div>
+      </div>
+    </div>
+    <div class="second-container" id="featured">
+      <h2 class="featured-recipes">Featured Recipes</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="/assets/images/breakfast.png"
+              class="card-img-top"
+              alt="Breakfast"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Breakfast</h5>
+              <p class="card-text">
+                Check our delicious vegan breakfast recipes.
+              </p>
+              <a href="breakfast.html" class="btn btn-primary">View Recipes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/assets/images/lunch.jpg" class="card-img-top" alt="Lunch" />
+            <div class="card-body">
+              <h5 class="card-title">Lunch</h5>
+              <p class="card-text">
+                Discover our nutritious vegan lunch recipes.
+              </p>
+              <a href="lunch.html" class="btn btn-primary">View Recipes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/assets/images/dinner.png" class="card-img-top" alt="Dinner" />
+            <div class="card-body">
+              <h5 class="card-title">Dinner</h5>
+              <p class="card-text">
+                Indulge in our flavorful vegan dinner recipes.
+              </p>
+              <a href="dinner.html" class="btn btn-primary">View Recipes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section" id="about-section">
+        <div class="col-md-6">
+          <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+              We are a group of passionate individuals dedicated to promoting a
+              sustainable and compassionate lifestyle through the power of vegan
+              cooking.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="about-video">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/QoUCKLSJpEQ"
+                title="Vegan Mashup Trailer/Plant Based Vegan Food Recipes"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="third-container" id="contact-us">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="5"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <div class="popup" id="popup">
+        <p class="popup-message" id="popup-message"></p>
+        <button class="popup-button" id="close-popup">OK</button>
+      </div>
+    </div>
+
+    
+    <button id="scroll-to-top" title="Go to top">
+      <img src="/assets/icon/navigate-up-arrows.png" alt="Scroll to Top" />
+    </button>
+    <footer class="footer">
+      <span>&copy; 2023 Kelompok 10 CCIT FTUI</span>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
+      async
+      defer
+    ></script>
+    <script src="js/index.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </body>
+</html>
